@@ -1,0 +1,33 @@
+{
+    "name": "fullscreen-image-slider-jquery-plugin",
+    "version": "0.1.0",
+    "title": "jQuery Fullscreen Image Slider",
+    "author": {
+        "name": "Htmldrive.net",
+        "url": "http://www.htmldrive.net"
+    },
+    "licenses": [
+        {
+            "type": "apache",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.5.1"
+    },
+    "description": "Realtime window resize responsive, Optimization for tablet and smartphone, Easy to installation configuration, Support touch gestures",
+    "keywords": [
+        "slideshow",
+        "slider",
+        "seamless",
+        "animation",
+        "ui",
+        "image",
+        "rotator",
+        "fullscreen"
+    ],
+    "homepage": "http://www.htmldrive.net/items/show/1276/Fullscreen-Image-Slider-with-jQuery-plugin",
+    "demo": "http://www.htmldrive.net/items/demo/1276/Fullscreen-Image-Slider-with-jQuery-plugin",
+    "download": "https://github.com/htmldrive/Fullscreen-image-slider-jquery-plugin",
+    "bugs": "https://github.com/htmldrive/Fullscreen-image-slider-jquery-plugin/issues"
+}
