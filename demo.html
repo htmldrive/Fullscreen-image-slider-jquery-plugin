@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <!--meta name="viewport" content="width=device-width; initial-scale=1.0" /-->
+
+        <!-- blueprint CSS framework -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen, projection" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/fullscreen_slider.css" />
+        <!-- html5.js for IE less than 9 -->
+        <!--[if lt IE 9]>
+                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>
+                <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+        <script type="text/javascript" src="js/jquery.touchswipe.js"></script>
+        <title>Fullscreen Image Slider</title>
+        <script type="text/javascript" src="js/fullscreen_slider.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>
+		<style type="text/css">
+        
+		</style>
+        <script type="text/javascript">
+        (function($){
+            $(document).ready(function (){
+                $('#slider').fullscreen_slider({
+                  easing: 'easeOutQuad',
+                  handle_width: 30, //Prev next show width
+                  speed: 'slow'
+                });
+            });
+            $(window).resize(function() {
+                $('#slider').fullscreen_slider('resize');
+            });
+        })(window.jQuery);
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>Fullscreen Image Slider</h1>
+        </header>
+        <div id="slider" class="fullscreen_slider">
+            <div class="fullscreen_slider_child">
+                <div class="fullscreen_slider_image">
+                    <img src="800x600.gif"  />
+                </div>
+                <div class="fullscreen_slider_caption">Description</div>
+            </div>
+            <div class="fullscreen_slider_child">
+                <div class="fullscreen_slider_image">
+                    <img src="800x600.gif" />
+                </div>
+                <div class="fullscreen_slider_caption">Description</div>
+            </div>
+            <div class="fullscreen_slider_child">
+                <div class="fullscreen_slider_image">
+                    <img src="800x600.gif" />
+                </div>
+                <div class="fullscreen_slider_caption">Description</div>
+            </div>
+            <div class="fullscreen_slider_child">
+                <div class="fullscreen_slider_image">
+                    <img src="800x600.gif" />
+                </div>
+                <div class="fullscreen_slider_caption">Description</div>
+            </div>
+            <div class="fullscreen_slider_child">
+                <div class="fullscreen_slider_image">
+                    <img src="800x600.gif" />
+                </div>
+                <div class="fullscreen_slider_caption">Description
+                </div>
+            </div>
+
+            <div class="fullscreen_slider_child">
+                <div class="fullscreen_slider_image">
+                    <img src="800x600.gif" />
+                </div>
+                <div class="fullscreen_slider_caption">Description</div>
+            </div>
+        </div>
+    </body>
+</html>
