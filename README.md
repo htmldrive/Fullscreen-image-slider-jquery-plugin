@@ -12,6 +12,7 @@ Fullscreen Image Slider with jQuery plugin
 *Optimization for tablet and smartphone
 *Easy to installation configuration
 *Support touch gestures
+*Support left/right arrow keys
 
 ##Usage
 **Include js and css files.**
