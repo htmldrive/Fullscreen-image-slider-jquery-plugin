@@ -15,7 +15,7 @@
     "dependencies": {
         "jquery": ">=1.5.1"
     },
-    "description": "Realtime window resize responsive, Optimization for tablet and smartphone, Easy to installation configuration, Support touch gestures",
+    "description": "Realtime window resize responsive, Optimization for tablet and smartphone, Easy to installation configuration, Support touch gestures, Support left/right arrow keys",
     "keywords": [
         "slideshow",
         "slider",
