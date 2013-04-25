@@ -1,6 +1,6 @@
 {
     "name": "fullscreen-image-slider-jquery-plugin",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "title": "jQuery Fullscreen Image Slider",
     "author": {
         "name": "Htmldrive.net",
@@ -15,7 +15,7 @@
     "dependencies": {
         "jquery": ">=1.5.1"
     },
-    "description": "Realtime window resize responsive, Optimization for tablet and smartphone, Easy to installation configuration, Support touch gestures, Support left/right arrow keys",
+    "description": "Realtime window resize responsive, Optimization for tablet and smartphone, Easy to installation configuration, Support touch gestures, Support left/right arrow keys, Image loading",
     "keywords": [
         "slideshow",
         "slider",
