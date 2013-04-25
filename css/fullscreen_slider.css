@@ -1,7 +1,10 @@
-.fullscreen_slider{display: none; position:relative;overflow: hidden;}
+.fullscreen_slider{position:relative;overflow: hidden;}
 .fullscreen_slider_child{position:absolute;cursor:pointer;}
 .fullscreen_slider_caption{font-size: 15px;text-align: center;}
 .fullscreen_slider_caption > p {margin:0;}
+.fullscreen_slider_image{text-align: center;}
+.fullscreen_slider_child{display: none;}
+.fullscreen_slider{background-image: url(loading.gif);background-repeat: no-repeat;background-position: center;}
     /*.fullscreen_slider_image img{width: 420px;height:630px;}*/
 @media only screen and (max-height: 675px) {
     .fullscreen_slider_image img{height:600px;width:800px;}
